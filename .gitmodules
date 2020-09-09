@@ -4,3 +4,9 @@
 [submodule "themes/ghostwriter"]
 	path = themes/ghostwriter
 	url = https://github.com/jbub/ghostwriter.git
+[submodule "themes/alageek"]
+	path = themes/alageek
+	url = https://github.com/gkmngrgn/hugo-alageek-theme
+[submodule "themes/hugo-kiera"]
+	path = themes/hugo-kiera
+	url = https://github.com/funkydan2/hugo-kiera
