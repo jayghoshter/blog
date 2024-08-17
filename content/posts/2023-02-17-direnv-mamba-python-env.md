@@ -11,19 +11,19 @@ series = []
 
 I am a proponent of Nix for stable and reproducible builds of software. Theoretically, it's all positives: 
 
-    - symlink-to-store based environment to allow multiple software (dependency) versions live conflict-free, 
-    - allow impromptu overrides and custom builds of any package/dependency
-    - cool `nix-shell` (or `nix develop`) feature for hacking away at your software 
-    - ... and so much more that I don't care to research and write about.
+- symlink-to-store based environment to allow multiple software (dependency) versions live conflict-free, 
+- allow impromptu overrides and custom builds of any package/dependency
+- cool `nix-shell` (or `nix develop`) feature for hacking away at your software 
+- ... and so much more that I don't care to research and write about.
 
 But as anyone but the most hardcore Nix devs can attest to, the actual experience of using Nix is quite frustrating: 
 
-    - A hard time getting to work with python. I don't care if it's the fault of the python ecosystem. The tool doesn't do what it is supposed to do as easily as it says it would. Especially when it comes to support for bleeding edge PyPI packages and/or python versions. And don't give me any spiel about `mach-nix`, `poetry2nix` or `pypi2nix`. These things are patchwork fixes to a broken system in my opinion. They might work in specific cases, but are nowhere close to robust.
-    - If there isn't a nixpkg for what you want, it's probably gonna make you wait while it builds from source.
-    - If you end up on an old-ish machine without root access and kernel user namespaces, it might not even be possible to run Nix.
-    - To flake or not to flake?
-    - Documentation? Where are you?
-    - ... and so much more that I don't care to research and write about.
+- A hard time getting to work with python. I don't care if it's the fault of the python ecosystem. The tool doesn't do what it is supposed to do as easily as it says it would. Especially when it comes to support for bleeding edge PyPI packages and/or python versions. And don't give me any spiel about `mach-nix`, `poetry2nix` or `pypi2nix`. These things are patchwork fixes to a broken system in my opinion. They might work in specific cases, but are nowhere close to robust.
+- If there isn't a nixpkg for what you want, it's probably gonna make you wait while it builds from source.
+- If you end up on an old-ish machine without root access and kernel user namespaces, it might not even be possible to run Nix.
+- To flake or not to flake?
+- Documentation? Where are you?
+- ... and so much more that I don't care to research and write about.
 
 I think the major disappointment is that you believe in the promise of a unified reproducible package manager/build system and you scour through someone's years old, deprecated diary of experimenting with Nix, trying to figure it out so that you can reach dev-nirvana, all for seemingly  nothing. It's not as perfect as the evangelists tout even though it aspires to be.
 
